@@ -13,8 +13,8 @@ html
       // show score.place
       // show score.initials
       // show score.score
-      for  in 
+      for  item in scores
         tr
-          td(class="place")= 
-          td(class="initials")= 
-          td(class="score")= 
+          td(class="place")= item.place
+          td(class="initials")= item.initials
+          td(class="score")= item.score
